@@ -1,9 +1,23 @@
 var obj1 = { name:"Person 1",age:5 };
-var obj2 = { age:5,name:"Person 1" };
+var obj2 = { age:5,name:"Person 1"};
 
+//JSON stringify prints- order
 if(JSON.stringify(obj1) === JSON.stringify(obj2)){
-    console.log("Not Equal");
+    console.log("Equal");
 }
 else{
-    console.log("Equal")
+    console.log("Not Equal")
 }
+
+
+// let flag=true;
+
+// for(let e in obj1)
+// {
+//     if(obj1[e] !== obj2[e])
+//     {
+//         flag= false
+//         break
+//     }
+// }
+// flag?console.log("Equal"):console.log("Not Equal")
