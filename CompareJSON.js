@@ -1,7 +1,6 @@
 var obj1 = { name:"Person 1",age:5 };
 var obj2 = { age:10,name:"Person 1"};
 
-
 let flag=true;
 
 for(let e in obj1)
